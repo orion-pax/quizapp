@@ -48,9 +48,7 @@ export default class AnswerSheetComponent extends React.Component {
         }
 
         answs = [...answs, answer]
-
         this.setState({ answers: answs })
-
     }
     componentDidMount() {
         const { params } = this.props.match
