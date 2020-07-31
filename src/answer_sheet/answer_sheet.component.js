@@ -118,7 +118,6 @@ export default class AnswerSheetComponent extends React.Component {
                     isLoading: false
                 })
             })
-
     }
 
     handleNextClick(e) {
@@ -154,7 +153,6 @@ export default class AnswerSheetComponent extends React.Component {
                 }
             }
             />
-
         }
         let button;
         let label;
